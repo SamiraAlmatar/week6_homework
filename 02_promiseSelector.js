@@ -1,4 +1,5 @@
 function promiseSelecter(condition){
+    // return resolve or reject promise value based on condition value
     return new Promise(function(resolve, reject){
         if(condition){
             resolve("success");
@@ -8,6 +9,7 @@ function promiseSelecter(condition){
     });
 }
 
+//use as callBack function to Print
 function printer(value){
     console.log(value);
 }
